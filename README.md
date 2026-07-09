@@ -65,3 +65,6 @@ Passe ganz oben im Skript die Werte an deinen eBike-Akku an:
 const LADEVERLUST_PROZENT = 20;  // Ladeverlust deines Netzteils (meist 15-20%)
 const AKKU_KAPAZITAET_WH = 625;  // Kapazität deines Akkus in Wattstunden (z.B. 500, 625, 750)
 const AKKU_ZUSTAND_PROZENT = 90; // Alterungszustand (State of Health) deines Akkus
+
+
+![Shelly Plug](https://github.com/Tida-Support/Shelly-Scripts/blob/main/Shelly%20Plug.jpg)
