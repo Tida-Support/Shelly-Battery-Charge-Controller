@@ -21,10 +21,6 @@ Dieses Skript verwandelt deinen Shelly Plug M Gen3 in einen intelligenten Lade-M
 
 ![Shelly App im Web](https://github.com/Tida-Support/Shelly-Scripts/blob/main/Shelly%20Web.png)
 
-<p align="center">
-  <img src="https://github.com/Tida-Support/Shelly-Scripts/blob/main/Shelly%20Script.png" width="300" alt="Shelly Plug">
-  <img src="https://github.com/Tida-Support/Shelly-Scripts/blob/main/Shelly%20Plug.jpg" width="300" alt="Shelly Plug">
-</p>
 
 ---
 
@@ -63,6 +59,11 @@ Bevor du das Skript startest, musst du die Bedienelemente in der Shelly App erst
 3. Füge den Code in den Editor ein.
 4. Benenne das Skript (z. B. `E-Bike Charge Control`).
 5. Klicke auf **Save** (Speichern) und aktiviere den Schalter **Enable** (Autostart), damit das Skript nach einem Stromausfall oder Neustart des Shelly von alleine startet.
+
+<p align="center">
+  <img src="https://github.com/Tida-Support/Shelly-Scripts/blob/main/Shelly%20Script.png" width="300" alt="Shelly Plug">
+  <img src="https://github.com/Tida-Support/Shelly-Scripts/blob/main/Shelly%20Plug.jpg" width="300" alt="Shelly Plug">
+</p>
 
 ### Schritt 3: Skript-Konfiguration anpassen
 Passe ganz oben im Skript die Werte an deinen eBike-Akku an:
