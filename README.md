@@ -68,7 +68,11 @@ Bevor du das Skript startest, musst du die Bedienelemente in der Shelly App erst
 ### Schritt 3: Skript-Konfiguration anpassen
 Passe ganz oben im Skript die Werte an deinen eBike-Akku an:
 ```javascript
+// CONFIGURATION - AKKU & FESTE WERTE
 const LADEVERLUST_PROZENT = 20;  // Ladeverlust deines Netzteils (meist 15-20%)
 const AKKU_KAPAZITAET_WH = 625;  // Kapazität deines Akkus in Wattstunden (z.B. 500, 625, 750)
 const AKKU_ZUSTAND_PROZENT = 90; // Alterungszustand (State of Health) deines Akkus
+
+// CONFIGURATION - ZUSÄTZLICHE LEISTUNGS-SICHERHEIT (AUTO-OFF)
+const MIN_POWER_WATT = 75.0;      // Wenn die Leistung unter diesen Watt-Wert fällt...
 
