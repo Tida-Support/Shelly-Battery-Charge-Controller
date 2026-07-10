@@ -57,15 +57,16 @@ Bevor du das Skript startest, musst du die Bedienelemente in der Shelly App erst
 1. Kopiere den Code der `Akku Ladung DE.js` aus diesem Repository.
 2. Gehe in der Shelly App beim Gerät auf den Menüpunkt **Scripts** und klicke auf **Add Script**.
 3. Füge den Code in den Editor ein.
-4. Benenne das Skript (z. B. `E-Bike Charge Control`).
-5. Klicke auf **Save** (Speichern) und aktiviere den Schalter **Enable** (Autostart), damit das Skript nach einem Stromausfall oder Neustart des Shelly von alleine startet.
+4. Passe die Script-Konfiguration an (siehe unten)
+5. Benenne das Skript (z. B. `E-Bike Charge Control`).
+6. Klicke auf **Save** (Speichern) und aktiviere den Schalter **Enable** (Autostart), damit das Skript nach einem Stromausfall oder Neustart des Shelly von alleine startet.
 
 <p align="center">
   <img src="https://github.com/Tida-Support/Shelly-Scripts/blob/main/Shelly%20Script.png" width="300" alt="Shelly Plug">
   <img src="https://github.com/Tida-Support/Shelly-Scripts/blob/main/Shelly%20Plug.jpg" width="300" alt="Shelly Plug">
 </p>
 
-### Schritt 3: Skript-Konfiguration anpassen
+### Schritt 2.4: Skript-Konfiguration anpassen
 Passe ganz oben im Skript die Werte an deinen eBike-Akku an:
 ```javascript
 // CONFIGURATION - AKKU & FESTE WERTE
